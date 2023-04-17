@@ -1,0 +1,177 @@
+{
+  "id": "100c4c75-f3ac-4449-9438-b7a81572863e",
+  "version": "2.0",
+  "name": "Test5",
+  "url": "https://www.clasohlson.com/se/",
+  "tests": [{
+    "id": "51fd2191-9e8f-46d2-bae0-34c0dd0fbb0d",
+    "name": "Test5",
+    "commands": [{
+      "id": "462b1cd6-72aa-4373-adb8-d939330433ec",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.clasohlson.com/se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80b17473-bccd-49d2-b364-79c0be431e7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cookie-notification-accept",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c310dcc5-e741-4cb9-bff5-d707636885d5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//nav[3]/div/ul/li",
+      "targets": [
+        ["linkText=Kontor", "linkText"],
+        ["css=.show-third-level > .js-nav-sub-category-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Kontor')]", "xpath:link"],
+        ["xpath=//nav[@id='navigation']/div/ul/li/div/div/div/ul/li[8]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/Hem/Kontor/c/1463')]", "xpath:href"],
+        ["xpath=//li[8]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kontor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e561c0e-75e7-4121-98ac-900ee813e46e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kontor",
+      "targets": [
+        ["linkText=Kontor", "linkText"],
+        ["css=.show-third-level > .js-nav-sub-category-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Kontor')]", "xpath:link"],
+        ["xpath=//nav[@id='navigation']/div/ul/li/div/div/div/ul/li[8]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/Hem/Kontor/c/1463')]", "xpath:href"],
+        ["xpath=//li[8]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kontor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d05e48d-4d9e-4d0b-b14f-6c50121a5061",
+      "comment": "",
+      "command": "click",
+      "target": "css=.co-lista-mission:nth-child(2) img",
+      "targets": [
+        ["css=.co-lista-mission:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='Pennor']", "xpath:img"],
+        ["xpath=//li[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "885e2ca0-ff4a-44aa-bb96-92a5e1428740",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6:nth-child(1) img",
+      "targets": [
+        ["css=.col-md-6:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Kritpennor Naga 2-pack']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85357c4d-2758-4494-aa13-cff889d46924",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__price-value",
+      "targets": [
+        ["css=.product__price-value", "css:finder"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e939c1ca-e7a9-4534-9f44-8f5ce973fc43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Kritpennor Naga 2-pack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b6a2c43-75e3-4b61-9490-5379b978fc67",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Kritpennor Naga 2-pack')]", "xpath:innerText"]
+      ],
+      "value": "Kritpennor Naga 2-pack"
+    }, {
+      "id": "e4e4c38c-a512-4c0b-9744-6960d8a97f6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.choose-store",
+      "targets": [
+        ["css=.choose-store", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93f4df5b-f69d-46f0-8b99-c3bf28c9f8a5",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-store",
+      "targets": [
+        ["id=search-store", "id"],
+        ["css=#search-store", "css:finder"],
+        ["xpath=//input[@id='search-store']", "xpath:attributes"],
+        ["xpath=//div[@id='chooseStorePopup']/div/div/div[2]/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97ae0b31-fefb-4660-b04d-550bf6ce0df5",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-store",
+      "targets": [
+        ["id=search-store", "id"],
+        ["css=#search-store", "css:finder"],
+        ["xpath=//input[@id='search-store']", "xpath:attributes"],
+        ["xpath=//div[@id='chooseStorePopup']/div/div/div[2]/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "Washington"
+    }, {
+      "id": "65ae3569-2266-4f4e-8e50-104f3b37e927",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-store-error",
+      "targets": [
+        ["css=.search-store-error", "css:finder"],
+        ["xpath=//div[@id='chooseStorePopup']/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div[2]/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec727e82-286a-4bb4-9b00-894c168b3791",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-store-error",
+      "targets": [
+        ["css=.search-store-error", "css:finder"],
+        ["xpath=//div[@id='chooseStorePopup']/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div[2]/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "Inga butiker hittades"
+    }]
+  }],
+  "suites": [{
+    "id": "5a7687d2-4180-4442-b283-c3b3b999b531",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["51fd2191-9e8f-46d2-bae0-34c0dd0fbb0d"]
+  }],
+  "urls": ["https://www.clasohlson.com/se/"],
+  "plugins": []
+}

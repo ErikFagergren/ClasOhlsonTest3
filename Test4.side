@@ -1,0 +1,191 @@
+{
+  "id": "ca7345c8-b808-472f-9461-34a2200cb214",
+  "version": "2.0",
+  "name": "Test4",
+  "url": "https://www.clasohlson.com/se/",
+  "tests": [{
+    "id": "dbaac744-0ebb-4e87-8ac5-a0dddc419722",
+    "name": "Test4",
+    "commands": [{
+      "id": "594fa997-7561-424e-a063-ea5b75f4a34f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.clasohlson.com/se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8a1be62-2ded-41fa-ada9-4d89a9972092",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cookie-notification-accept",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f98ecad-fefb-4604-a52e-c9621dd0faff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.liOffcanvas:nth-child(1) .sign-in-wrapper",
+      "targets": [
+        ["css=.liOffcanvas:nth-child(1) .sign-in-wrapper", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01505819-5f7b-4af1-aa92-55ea13b20a1e",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=j_username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc69f63b-68b0-4a4b-ab9a-4ff9a627349d",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=j_username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "erik_fagergren@hotmail.com"
+    }, {
+      "id": "5bd5e89b-fd2e-48da-aa32-6e7ffe1b7e36",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-password",
+      "targets": [
+        ["id=login-password", "id"],
+        ["name=j_password", "name"],
+        ["css=#login-password", "css:finder"],
+        ["xpath=//input[@id='login-password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "ClubClas12"
+    }, {
+      "id": "39072cc5-4501-46e6-8aa0-629af6a4efd9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=login-password",
+      "targets": [
+        ["id=login-password", "id"],
+        ["name=j_password", "name"],
+        ["css=#login-password", "css:finder"],
+        ["xpath=//input[@id='login-password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "4feda41c-1203-4b6b-9765-fca8fd42ee4f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mitt Club Clas",
+      "targets": [
+        ["linkText=Mitt Club Clas", "linkText"],
+        ["css=.clubclas", "css:finder"],
+        ["xpath=//a[contains(text(),'Mitt Club Clas')]", "xpath:link"],
+        ["xpath=//div[@id='loginregister-component']/div[6]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/my-account/myConsent')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mitt Club Clas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbb82263-5867-42c7-9e47-56f65769dd9d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Information",
+      "targets": [
+        ["linkText=Information", "linkText"],
+        ["css=li:nth-child(1) > .mypages__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Information')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/se/my-account')])[3]", "xpath:href"],
+        ["xpath=//section/nav/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01bcf405-910d-4121-a32c-70ac46f74f3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.account__heading",
+      "targets": [
+        ["css=.account__heading", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a5d08da-eea9-4638-848a-3259bf87cc93",
+      "comment": "",
+      "command": "click",
+      "target": "css=.number > span",
+      "targets": [
+        ["css=.number > span", "css:finder"],
+        ["xpath=//form[@id='accountMembershipDetails']/section/div[2]/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'6361460102565449')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df4df534-bedc-41a6-89b7-cba89e719024",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mitt konto",
+      "targets": [
+        ["linkText=Mitt konto", "linkText"],
+        ["css=.breadcrumb > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mitt konto')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/se/my-account')])[2]", "xpath:href"],
+        ["xpath=//ol/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mitt konto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "006a4f6a-258d-408e-aeb6-9f23848a7bb1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.liOffcanvas:nth-child(2) > .js-open-login-flyout",
+      "targets": [
+        ["css=.liOffcanvas:nth-child(2) > .js-open-login-flyout", "css:finder"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcd6df1b-10bf-44ba-8bd9-373ef525094c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logga ut",
+      "targets": [
+        ["linkText=Logga ut", "linkText"],
+        ["css=.footer__nav--links:nth-child(2) .logout_user", "css:finder"],
+        ["xpath=(//a[contains(text(),'Logga ut')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/se/logout')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ac4e0288-5f7a-41ee-95d4-18991174081e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dbaac744-0ebb-4e87-8ac5-a0dddc419722"]
+  }],
+  "urls": ["https://www.clasohlson.com/se/"],
+  "plugins": []
+}

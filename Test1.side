@@ -1,0 +1,186 @@
+{
+  "id": "e038b570-69e5-492f-ad22-522989a5bef2",
+  "version": "2.0",
+  "name": "Test1",
+  "url": "https://www.clasohlson.com/se/",
+  "tests": [{
+    "id": "0fe47ed9-cbd3-4551-b2be-e942a7f9b36e",
+    "name": "Test1",
+    "commands": [{
+      "id": "ba5c47b6-9945-4097-8679-611d9b42da92",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "https://www.clasohlson.com/se/"
+    }, {
+      "id": "32bb6f22-624f-4670-a884-4a66676d053b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cookie-notification-accept",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80681550-e18c-4f9f-86fb-5b1bdc017498",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//nav[3]/div/ul/li",
+      "targets": [
+        ["linkText=Förvaring", "linkText"],
+        ["css=.show-third-level > .js-nav-sub-category-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Förvaring')]", "xpath:link"],
+        ["xpath=//nav[@id='navigation']/div/ul/li/div/div/div/ul/li[5]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/Hem/Förvaring/c/1844')]", "xpath:href"],
+        ["xpath=//li[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Förvaring')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0116f056-41b5-418b-8fa0-b63a7b8464c7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Förvaring",
+      "targets": [
+        ["linkText=Förvaring", "linkText"],
+        ["css=.show-third-level > .js-nav-sub-category-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Förvaring')]", "xpath:link"],
+        ["xpath=//nav[@id='navigation']/div/ul/li/div/div/div/ul/li[5]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/Hem/Förvaring/c/1844')]", "xpath:href"],
+        ["xpath=//li[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Förvaring')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "357c86b3-6998-4000-8f27-8ee21f871b8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.co-lista-mission:nth-child(6) img",
+      "targets": [
+        ["css=.co-lista-mission:nth-child(6) img", "css:finder"],
+        ["xpath=//img[@alt='Skoförvaring']", "xpath:img"],
+        ["xpath=//ul[@id='co-karusell-mission']/li[6]/a/img", "xpath:idRelative"],
+        ["xpath=//li[6]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79bfc0cc-0724-47fd-af19-2426013abd8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6:nth-child(2) img",
+      "targets": [
+        ["css=.col-md-6:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='Skohylla ställbar, metall']", "xpath:img"],
+        ["xpath=//li[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2ea8142-c4c2-4e4e-b35b-6bce93ac2184",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__price-value",
+      "targets": [
+        ["css=.product__price-value", "css:finder"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c155b13f-df70-418d-b0a2-8b76109d6441",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Skohylla ställbar, metall')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51d9358c-146c-4f76-980b-82aab267599e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Stapelbar skolåda med dörr, 4-pack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d848d504-1bde-465b-8087-04011e113510",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Stapelbar skolåda med dörr, 4-pack')]", "xpath:innerText"]
+      ],
+      "value": "Skohylla ställbar, metall"
+    }, {
+      "id": "7fdddc3b-b5f1-4041-aeed-5cd8d14a8508",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav__left > .yCmsComponent .icon",
+      "targets": [
+        ["css=.nav__left > .yCmsComponent .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "52566ca4-2438-478d-ab3d-2b473c1777ca",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#btn-banner img",
+      "targets": [
+        ["css=#btn-banner img", "css:finder"],
+        ["xpath=//img[@alt='Städa och diska']", "xpath:img"],
+        ["xpath=//section[@id='btn-banner']/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[3]/section/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5bb3a74-5b16-4b01-ae78-f51f93306eac",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btn-banner img",
+      "targets": [
+        ["css=#btn-banner img", "css:finder"],
+        ["xpath=//img[@alt='Städa och diska']", "xpath:img"],
+        ["xpath=//section[@id='btn-banner']/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[3]/section/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f842143-74d4-4bcc-bb54-a6229c7cd2cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Städa & diska')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcb02567-52ad-4ae3-a314-63bc52fdff51",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Städa & diska')]", "xpath:innerText"]
+      ],
+      "value": "Städa & diska"
+    }]
+  }],
+  "suites": [{
+    "id": "4afddd8d-82eb-48ad-ae93-4831890301de",
+    "name": "",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0fe47ed9-cbd3-4551-b2be-e942a7f9b36e"]
+  }],
+  "urls": ["https://www.clasohlson.com/se/c/clubclas", "https://www.clasohlson.com/se/"],
+  "plugins": []
+}

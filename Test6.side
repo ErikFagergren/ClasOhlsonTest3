@@ -1,0 +1,161 @@
+{
+  "id": "99517cf0-429a-4630-a886-835f8f9c931f",
+  "version": "2.0",
+  "name": "Test6",
+  "url": "https://www.clasohlson.com/se/",
+  "tests": [{
+    "id": "5ae902ef-14ab-40d6-a372-69fa80269388",
+    "name": "Test6",
+    "commands": [{
+      "id": "6a092279-5b9d-472e-8388-dffd8cc6a27c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.clasohlson.com/se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86e42997-de50-4d4d-8da3-8e22a9134bf8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cookie-notification-accept",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bcf4fe4-f539-4bce-a893-de83b9be785d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//nav[3]/div/ul/li[5]",
+      "targets": [
+        ["css=.show-sub", "css:finder"],
+        ["xpath=//nav[@id='navigation']/div/ul/li[5]", "xpath:idRelative"],
+        ["xpath=//nav[3]/div/ul/li[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1586a81-5e04-4373-a52b-30bb9b51d102",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show-sub",
+      "targets": [
+        ["css=.show-sub", "css:finder"],
+        ["xpath=//nav[@id='navigation']/div/ul/li[5]", "xpath:idRelative"],
+        ["xpath=//nav[3]/div/ul/li[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8905f27a-ed66-44d1-95f9-b6d60ae7c56a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Surfplattor & tillbehör",
+      "targets": [
+        ["linkText=Surfplattor & tillbehör", "linkText"],
+        ["css=.show-third-level > .js-nav-sub-category-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Surfplattor & tillbehör')]", "xpath:link"],
+        ["xpath=//nav[@id='navigation']/div/ul/li[5]/div/div/div/ul/li[15]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/Multimedia/Surfplattor-&-tillbehör/c/2098')]", "xpath:href"],
+        ["xpath=//li[5]/div/div/div/ul/li[15]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Surfplattor & tillbehör')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab29a24f-9138-46d1-8e6a-1381165862da",
+      "comment": "",
+      "command": "click",
+      "target": "id=min_price",
+      "targets": [
+        ["id=min_price", "id"],
+        ["css=#min_price", "css:finder"],
+        ["xpath=//input[@id='min_price']", "xpath:attributes"],
+        ["xpath=//div[@id='baseprice']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8206e9a-941b-4802-ae89-b4df5cf7e785",
+      "comment": "",
+      "command": "assertNotText",
+      "target": "id=min_price",
+      "targets": [
+        ["id=min_price", "id"],
+        ["css=#min_price", "css:finder"],
+        ["xpath=//input[@id='min_price']", "xpath:attributes"],
+        ["xpath=//div[@id='baseprice']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "49,9"
+    }, {
+      "id": "adde1feb-633c-4cfd-bc61-cd4cf99d9afb",
+      "comment": "",
+      "command": "click",
+      "target": "id=max_price",
+      "targets": [
+        ["id=max_price", "id"],
+        ["css=#max_price", "css:finder"],
+        ["xpath=//input[@id='max_price']", "xpath:attributes"],
+        ["xpath=//div[@id='baseprice']/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d11ba72-c7e4-4b0c-9c9c-f1f6ff84fc27",
+      "comment": "",
+      "command": "assertNotText",
+      "target": "id=max_price",
+      "targets": [
+        ["id=max_price", "id"],
+        ["css=#max_price", "css:finder"],
+        ["xpath=//input[@id='max_price']", "xpath:attributes"],
+        ["xpath=//div[@id='baseprice']/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1499"
+    }, {
+      "id": "dca63422-1ee5-4dd1-a566-11d2c8a3bec1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='slider-range']/span[2]",
+      "targets": [
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//div[@id='slider-range']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4de7a3e-058f-4607-944c-783bb70a24b1",
+      "comment": "",
+      "command": "click",
+      "target": "id=max_price",
+      "targets": [
+        ["id=max_price", "id"],
+        ["css=#max_price", "css:finder"],
+        ["xpath=//input[@id='max_price']", "xpath:attributes"],
+        ["xpath=//div[@id='baseprice']/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca372d9f-dca6-46fb-ade5-db831262fce2",
+      "comment": "",
+      "command": "assertNotText",
+      "target": "id=max_price",
+      "targets": [
+        ["id=max_price", "id"],
+        ["css=#max_price", "css:finder"],
+        ["xpath=//input[@id='max_price']", "xpath:attributes"],
+        ["xpath=//div[@id='baseprice']/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "706,52"
+    }]
+  }],
+  "suites": [{
+    "id": "89764988-2dd3-40ce-b65d-b06bbecfa1a7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5ae902ef-14ab-40d6-a372-69fa80269388"]
+  }],
+  "urls": ["https://www.clasohlson.com/se/"],
+  "plugins": []
+}

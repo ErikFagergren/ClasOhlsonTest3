@@ -1,0 +1,134 @@
+{
+  "id": "e9bb1379-39db-4dfb-8f98-1338bf5274b7",
+  "version": "2.0",
+  "name": "Test2",
+  "url": "https://www.clasohlson.com/se/",
+  "tests": [{
+    "id": "0f0e38ce-10ff-432d-9445-e76e98c79125",
+    "name": "Test2",
+    "commands": [{
+      "id": "c2e6edc9-348d-4681-8515-d38cb20c94f8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.clasohlson.com/se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6979c66a-5d7e-4175-b1ff-622696384d04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cookie-notification-accept",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "618762ff-bdb4-4e26-bd75-8f7217c91966",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Erbjudanden",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df5be117-6076-4b20-ac87-0bae6ef01d72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-3:nth-child(4) .lazyload",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5e62ee9-4b56-4987-b5b3-d99a55a2e272",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__title > .title-two",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8b18431-494a-42c2-b94b-c80c2057404e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Hopfällbart bord utomhus, 180 x 73 cm')]", "xpath:innerText"]
+      ],
+      "value": "Hopfällbart bord utomhus, 180 x 73 cm"
+    }, {
+      "id": "736570df-6501-48f5-ab24-e1518f63f35e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__article-number > span",
+      "targets": [
+        ["css=.product__article-number > span", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'31-8814')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "329c7483-c0f8-405b-8f09-abcfba0b28b4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product__price-value",
+      "targets": [
+        ["css=.product__price-value", "css:finder"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'599,00')]", "xpath:innerText"]
+      ],
+      "value": "599,00"
+    }, {
+      "id": "e7ccbce7-d2e7-48f2-9e37-92085301cae1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-pd-cart > span",
+      "targets": [
+        ["css=.btn-pd-cart > span", "css:finder"],
+        ["xpath=//div[2]/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,' (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa03fc59-ee60-4bb9-abbc-cb5f8a8abd03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.yCmsContentSlot:nth-child(1) .nav-cart .icon",
+      "targets": [
+        ["css=.yCmsContentSlot:nth-child(1) .nav-cart .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe4e3ae1-72a2-4ff7-bf17-6cf8dee6e271",
+      "comment": "",
+      "command": "click",
+      "target": "css=.yCmsContentSlot:nth-child(1) .minicart__link--cta span",
+      "targets": [
+        ["css=.yCmsContentSlot:nth-child(1) .minicart__link--cta span", "css:finder"],
+        ["xpath=//div[@id='minicart-component']/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gå till kassan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5cf92f8-2b79-4e61-b7df-47da6a32a27d",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Hopfällbart bord utomhus, 180 x 73 cm",
+      "targets": [
+        ["linkText=Hopfällbart bord utomhus, 180 x 73 cm", "linkText"],
+        ["css=.product-tile__title:nth-child(1) > .product-tile__title--product-name", "css:finder"],
+        ["xpath=(//a[contains(text(),'Hopfällbart bord utomhus, 180 x 73 cm')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/se/Hopf&auml;llbart-bord-utomhus,-180-x-73-cm/p/31-8814')])[4]", "xpath:href"],
+        ["xpath=//td[2]/div/a", "xpath:position"]
+      ],
+      "value": "Hopfällbart bord utomhus, 180 x 73 cm"
+    }]
+  }],
+  "suites": [{
+    "id": "faeafa14-5d9c-4ca7-b600-9b0ac5cbac27",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0f0e38ce-10ff-432d-9445-e76e98c79125"]
+  }],
+  "urls": ["https://www.clasohlson.com/se/"],
+  "plugins": []
+}

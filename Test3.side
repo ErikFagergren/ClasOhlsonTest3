@@ -1,0 +1,140 @@
+{
+  "id": "e467e9b8-3cce-4494-b789-9ba0e2a492f3",
+  "version": "2.0",
+  "name": "Test3",
+  "url": "https://www.clasohlson.com/se/",
+  "tests": [{
+    "id": "69a7aa27-37e7-4bf6-b460-db22d726cae8",
+    "name": "Test3",
+    "commands": [{
+      "id": "1c4d7b6e-3501-478b-8aa2-56a32d7260ec",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.clasohlson.com/se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8531ab75-54a1-41d8-93bf-bf83f1e2814c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cookie-notification-accept",
+      "targets": [
+        ["css=.js-cookie-notification-accept", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='js-cookie-notification']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Acceptera alla cookies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf17bee9-9b76-4278-9386-63f37cebff0f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.clasohlson.com/no/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94a4e678-9600-4ce1-99ef-8f1c1a54d339",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//nav[3]/div/ul/li",
+      "targets": [
+        ["css=.show-sub", "css:finder"],
+        ["xpath=//nav[@id='navigation']/div/ul/li", "xpath:idRelative"],
+        ["xpath=//nav[3]/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7553039-a5eb-4a06-83ae-8d54e4275d02",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kontor",
+      "targets": [
+        ["linkText=Kontor", "linkText"],
+        ["css=.show-third-level > .js-nav-sub-category-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Kontor')]", "xpath:link"],
+        ["xpath=//nav[@id='navigation']/div/ul/li/div/div/div/ul/li[7]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/no/Hjem/Kontor/c/1463')]", "xpath:href"],
+        ["xpath=//li[7]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kontor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd8ece2b-d098-4a43-a8d5-6c0a7af7a735",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.co-grid > .co-lista-mission:nth-child(1) img",
+      "targets": [
+        ["css=.co-grid > .co-lista-mission:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Blokk og papir']", "xpath:img"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f71660a-dc9d-4ab4-ad0a-1cc6556ba1d0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.co-grid > .co-lista-mission:nth-child(1) img",
+      "targets": [
+        ["css=.co-grid > .co-lista-mission:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Blokk og papir']", "xpath:img"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aa9ebf8-32eb-4911-858b-a8746063a87b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.co-lista-mission:nth-child(8) img",
+      "targets": [
+        ["css=.co-lista-mission:nth-child(8) img", "css:finder"],
+        ["xpath=//img[@alt='Kalender']", "xpath:img"],
+        ["xpath=//li[8]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a4258aa-3c3e-4347-a99f-48bbd11bbc00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6:nth-child(3) img",
+      "targets": [
+        ["css=.col-md-6:nth-child(3) img", "css:finder"],
+        ["xpath=//img[@alt='Naga ukeplanlegger A4']", "xpath:img"],
+        ["xpath=//li[3]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f67ac809-33d8-4568-b098-06e6e50ba523",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Naga ukeplanlegger A4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a78e0e7e-493d-4eb4-b742-a2959cc93368",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Ukekalender 2022 / 2023 A6')]", "xpath:innerText"]
+      ],
+      "value": "Ukekalender 2022 / 2023 A6"
+    }]
+  }],
+  "suites": [{
+    "id": "953e67a3-b05e-4b2f-995b-8212c6639c4b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["69a7aa27-37e7-4bf6-b460-db22d726cae8"]
+  }],
+  "urls": ["https://www.clasohlson.com/se/"],
+  "plugins": []
+}
