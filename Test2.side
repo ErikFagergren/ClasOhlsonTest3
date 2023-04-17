@@ -14,11 +14,19 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "6979c66a-5d7e-4175-b1ff-622696384d04",
+      "id": "c705af99-9068-455b-af8a-ef066d9d4cca",
       "comment": "",
       "command": "click",
-      "target": "css=.js-cookie-notification-accept",
-      "targets": [],
+      "target": "linkText=Bästsäljare",
+      "targets": [
+        ["linkText=Bästsäljare", "linkText"],
+        ["css=.right-nav-list:nth-child(3) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bästsäljare')]", "xpath:link"],
+        ["xpath=//nav[@id='navigation']/div/ul[2]/li/div/div/ul[2]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/c/product/bestseller')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bästsäljare')]", "xpath:innerText"]
+      ],
       "value": ""
     }, {
       "id": "618762ff-bdb4-4e26-bd75-8f7217c91966",
@@ -28,30 +36,58 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "df5be117-6076-4b20-ac87-0bae6ef01d72",
+      "id": "b8a18cad-5e75-450d-9c82-9cdc2a201995",
       "comment": "",
       "command": "click",
-      "target": "css=.col-lg-3:nth-child(4) .lazyload",
-      "targets": [],
+      "target": "css=.col-md-6:nth-child(1) img",
+      "targets": [
+        ["css=.col-md-6:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Kärcher högtryckstvätt, K4 Power Control Home Wood, 130 bar']", "xpath:img"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
       "value": ""
     }, {
-      "id": "b5e62ee9-4b56-4987-b5b3-d99a55a2e272",
+      "id": "fdf0fb04-6dd7-4dc5-b977-c39a242c5758",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.minus-button:nth-child(2)",
+      "targets": [
+        ["css=.minus-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[3]/div/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ebad9bb-d3f1-43aa-9a25-56d5e763575d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.minus-button:nth-child(2)",
+      "targets": [
+        ["css=.minus-button:nth-child(2)", "css:finder"],
+        ["xpath=//div[3]/div/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76cc4991-c5af-414c-9087-4854523e306d",
       "comment": "",
       "command": "click",
-      "target": "css=.product__title > .title-two",
-      "targets": [],
+      "target": "css=.product__discount-price",
+      "targets": [
+        ["css=.product__discount-price", "css:finder"],
+        ["xpath=//div[2]/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'2 999,00')]", "xpath:innerText"]
+      ],
       "value": ""
     }, {
-      "id": "f8b18431-494a-42c2-b94b-c80c2057404e",
+      "id": "d7809183-f7e1-4bfc-af6b-eaa63cd0375c",
       "comment": "",
-      "command": "assertText",
+      "command": "click",
       "target": "css=.product__title > .title-two",
       "targets": [
         ["css=.product__title > .title-two", "css:finder"],
         ["xpath=//h1", "xpath:position"],
-        ["xpath=//h1[contains(.,'Hopfällbart bord utomhus, 180 x 73 cm')]", "xpath:innerText"]
+        ["xpath=//h1[contains(.,'Kärcher högtryckstvätt, K4 Power Control Home Wood, 130 bar')]", "xpath:innerText"]
       ],
-      "value": "Hopfällbart bord utomhus, 180 x 73 cm"
+      "value": ""
     }, {
       "id": "736570df-6501-48f5-ab24-e1518f63f35e",
       "comment": "",
@@ -67,58 +103,24 @@
       "id": "329c7483-c0f8-405b-8f09-abcfba0b28b4",
       "comment": "",
       "command": "assertText",
-      "target": "css=.product__price-value",
+      "target": "css=.product__discount-price",
       "targets": [
-        ["css=.product__price-value", "css:finder"],
-        ["xpath=//div[2]/div/div/span", "xpath:position"],
-        ["xpath=//span[contains(.,'599,00')]", "xpath:innerText"]
+        ["css=.product__discount-price", "css:finder"],
+        ["xpath=//div[2]/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'2 999,00')]", "xpath:innerText"]
       ],
-      "value": "599,00"
+      "value": "2 999,00"
     }, {
-      "id": "e7ccbce7-d2e7-48f2-9e37-92085301cae1",
-      "comment": "",
-      "command": "click",
-      "target": "css=.btn-pd-cart > span",
-      "targets": [
-        ["css=.btn-pd-cart > span", "css:finder"],
-        ["xpath=//div[2]/div[2]/button/span", "xpath:position"],
-        ["xpath=//span[contains(.,' (1)')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "fa03fc59-ee60-4bb9-abbc-cb5f8a8abd03",
-      "comment": "",
-      "command": "click",
-      "target": "css=.yCmsContentSlot:nth-child(1) .nav-cart .icon",
-      "targets": [
-        ["css=.yCmsContentSlot:nth-child(1) .nav-cart .icon", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "fe4e3ae1-72a2-4ff7-bf17-6cf8dee6e271",
-      "comment": "",
-      "command": "click",
-      "target": "css=.yCmsContentSlot:nth-child(1) .minicart__link--cta span",
-      "targets": [
-        ["css=.yCmsContentSlot:nth-child(1) .minicart__link--cta span", "css:finder"],
-        ["xpath=//div[@id='minicart-component']/div[2]/div[2]/a/span", "xpath:idRelative"],
-        ["xpath=//a/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Gå till kassan')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "b5cf92f8-2b79-4e61-b7df-47da6a32a27d",
+      "id": "2d1ceba2-bb15-4ec9-a007-5b74dc852c93",
       "comment": "",
       "command": "assertText",
-      "target": "linkText=Hopfällbart bord utomhus, 180 x 73 cm",
+      "target": "css=.product__title > .title-two",
       "targets": [
-        ["linkText=Hopfällbart bord utomhus, 180 x 73 cm", "linkText"],
-        ["css=.product-tile__title:nth-child(1) > .product-tile__title--product-name", "css:finder"],
-        ["xpath=(//a[contains(text(),'Hopfällbart bord utomhus, 180 x 73 cm')])[2]", "xpath:link"],
-        ["xpath=(//a[contains(@href, '/se/Hopf&auml;llbart-bord-utomhus,-180-x-73-cm/p/31-8814')])[4]", "xpath:href"],
-        ["xpath=//td[2]/div/a", "xpath:position"]
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Kärcher högtryckstvätt, K4 Power Control Home Wood, 130 bar')]", "xpath:innerText"]
       ],
-      "value": "Hopfällbart bord utomhus, 180 x 73 cm"
+      "value": "Kärcher högtryckstvätt, K4 Power Control Home Wood, 130 bar"
     }]
   }],
   "suites": [{

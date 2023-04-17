@@ -124,7 +124,7 @@
         ["xpath=//h1", "xpath:position"],
         ["xpath=//h1[contains(.,'Ukekalender 2022 / 2023 A6')]", "xpath:innerText"]
       ],
-      "value": "Ukekalender 2022 / 2023 A6"
+      "value": "Naga ukeplanlegger med metallholder"
     }]
   }],
   "suites": [{

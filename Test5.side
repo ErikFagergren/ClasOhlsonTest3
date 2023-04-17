@@ -103,7 +103,7 @@
         ["xpath=//h1", "xpath:position"],
         ["xpath=//h1[contains(.,'Kritpennor Naga 2-pack')]", "xpath:innerText"]
       ],
-      "value": "Kritpennor Naga 2-pack"
+      "value": "Kulspetspennor 50-pack"
     }, {
       "id": "e4e4c38c-a512-4c0b-9744-6960d8a97f6c",
       "comment": "",

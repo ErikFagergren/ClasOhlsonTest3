@@ -10,9 +10,9 @@
       "id": "ba5c47b6-9945-4097-8679-611d9b42da92",
       "comment": "",
       "command": "open",
-      "target": "",
+      "target": "https://www.clasohlson.com/se/",
       "targets": [],
-      "value": "https://www.clasohlson.com/se/"
+      "value": ""
     }, {
       "id": "32bb6f22-624f-4670-a884-4a66676d053b",
       "comment": "",
@@ -170,7 +170,7 @@
         ["xpath=//h1", "xpath:position"],
         ["xpath=//h1[contains(.,'Städa & diska')]", "xpath:innerText"]
       ],
-      "value": "Städa & diska"
+      "value": "Bästsäljare"
     }]
   }],
   "suites": [{
