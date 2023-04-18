@@ -1,0 +1,115 @@
+{
+  "id": "49641761-d841-4de2-a9b6-40140f3f4233",
+  "version": "2.0",
+  "name": "Test7",
+  "url": "https://www.clasohlson.com/se/",
+  "tests": [{
+    "id": "62011134-80bf-44af-b34c-99f65126b24d",
+    "name": "Test7",
+    "commands": [{
+      "id": "64bf3225-ea1b-47bc-8644-c821ff54d41b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.clasohlson.com/se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d09567c-1b82-4aba-af00-8bf281abff46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cookie-notification-accept",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08cce78f-47da-4d60-aee6-ab55f999cbb4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,485)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e8bc4ce-bee1-4b6d-8b12-662d42ab8859",
+      "comment": "",
+      "command": "click",
+      "target": "css=.carousel__component:nth-child(5) .product-card:nth-child(2) .lazyload",
+      "targets": [
+        ["css=.carousel__component:nth-child(5) .product-card:nth-child(2) .lazyload", "css:finder"],
+        ["xpath=//img[@alt='Gardena RollUp XL slangvinda, 35 meter']", "xpath:img"],
+        ["xpath=//div[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a17c4475-ef25-4cec-8379-1844cc106829",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cmp_productdetails-ListAddToCartAction > .btn",
+      "targets": [
+        ["css=.cmp_productdetails-ListAddToCartAction > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lägg i varukorg (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74582ff9-f98a-4d92-a0a2-01fa2e8e4688",
+      "comment": "",
+      "command": "click",
+      "target": "css=.showcart > span",
+      "targets": [
+        ["css=.showcart > span", "css:finder"],
+        ["xpath=//div[@id='apptusrelated-component']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Visa varukorgen (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f74c34f2-021d-4283-9424-77e3b872ea6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.apptusrelated__link--cta > .btn-primary > span",
+      "targets": [
+        ["css=.apptusrelated__link--cta > .btn-primary > span", "css:finder"],
+        ["xpath=//div[@id='apptusrelated-component']/div[3]/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gå till kassan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "167ed615-fa3d-49a1-ac93-b510bc0e4357",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Gardena RollUp XL slangvinda, 35 meter",
+      "targets": [
+        ["linkText=Gardena RollUp XL slangvinda, 35 meter", "linkText"],
+        ["css=.product-tile__title:nth-child(1) > .product-tile__title--product-name", "css:finder"],
+        ["xpath=(//a[contains(text(),'Gardena RollUp XL slangvinda, 35 meter')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/se/Gardena-RollUp-XL-slangvinda,-35-meter/p/31-6244')])[4]", "xpath:href"],
+        ["xpath=//td[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce3c6cba-032f-4eaf-bd0f-2a653cba4659",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Gardena RollUp XL slangvinda, 35 meter",
+      "targets": [
+        ["linkText=Gardena RollUp XL slangvinda, 35 meter", "linkText"],
+        ["css=.product-tile__title:nth-child(1) > .product-tile__title--product-name", "css:finder"],
+        ["xpath=(//a[contains(text(),'Gardena RollUp XL slangvinda, 35 meter')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/se/Gardena-RollUp-XL-slangvinda,-35-meter/p/31-6244')])[4]", "xpath:href"],
+        ["xpath=//td[2]/div/a", "xpath:position"]
+      ],
+      "value": "Gardena RollUp XL slangvinda, 35 meter"
+    }]
+  }],
+  "suites": [{
+    "id": "bf0417a2-3762-496b-af04-8b7934166648",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["62011134-80bf-44af-b34c-99f65126b24d"]
+  }],
+  "urls": ["https://www.clasohlson.com/se/"],
+  "plugins": []
+}
