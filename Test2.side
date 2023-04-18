@@ -14,19 +14,11 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "c705af99-9068-455b-af8a-ef066d9d4cca",
+      "id": "3f8835c4-393e-45c8-9c26-b6df790de3fa",
       "comment": "",
       "command": "click",
-      "target": "linkText=Bästsäljare",
-      "targets": [
-        ["linkText=Bästsäljare", "linkText"],
-        ["css=.right-nav-list:nth-child(3) > li:nth-child(2) > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Bästsäljare')]", "xpath:link"],
-        ["xpath=//nav[@id='navigation']/div/ul[2]/li/div/div/ul[2]/li[2]/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/se/c/product/bestseller')]", "xpath:href"],
-        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Bästsäljare')]", "xpath:innerText"]
-      ],
+      "target": "css=.js-cookie-notification-accept",
+      "targets": [],
       "value": ""
     }, {
       "id": "618762ff-bdb4-4e26-bd75-8f7217c91966",
@@ -36,91 +28,76 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "b8a18cad-5e75-450d-9c82-9cdc2a201995",
+      "id": "bd90c5cb-c0cc-480e-977d-b2bdace9a0dc",
       "comment": "",
       "command": "click",
-      "target": "css=.col-md-6:nth-child(1) img",
+      "target": "css=.col-md-6:nth-child(8) img",
       "targets": [
-        ["css=.col-md-6:nth-child(1) img", "css:finder"],
-        ["xpath=//img[@alt='Kärcher högtryckstvätt, K4 Power Control Home Wood, 130 bar']", "xpath:img"],
-        ["xpath=//a/img", "xpath:position"]
+        ["css=.col-md-6:nth-child(8) img", "css:finder"],
+        ["xpath=//img[@alt='Oral-B Cross Action, borsthuvud refill']", "xpath:img"],
+        ["xpath=//li[8]/div/div/div/a/img", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "fdf0fb04-6dd7-4dc5-b977-c39a242c5758",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.minus-button:nth-child(2)",
-      "targets": [
-        ["css=.minus-button:nth-child(2)", "css:finder"],
-        ["xpath=//div[3]/div/div/button[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "3ebad9bb-d3f1-43aa-9a25-56d5e763575d",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.minus-button:nth-child(2)",
-      "targets": [
-        ["css=.minus-button:nth-child(2)", "css:finder"],
-        ["xpath=//div[3]/div/div/button[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "76cc4991-c5af-414c-9087-4854523e306d",
-      "comment": "",
-      "command": "click",
-      "target": "css=.product__discount-price",
-      "targets": [
-        ["css=.product__discount-price", "css:finder"],
-        ["xpath=//div[2]/div/div/span[2]", "xpath:position"],
-        ["xpath=//span[contains(.,'2 999,00')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "d7809183-f7e1-4bfc-af6b-eaa63cd0375c",
+      "id": "ebcb7b5a-33eb-47fd-bd2e-ab7540e00b61",
       "comment": "",
       "command": "click",
       "target": "css=.product__title > .title-two",
       "targets": [
         ["css=.product__title > .title-two", "css:finder"],
         ["xpath=//h1", "xpath:position"],
-        ["xpath=//h1[contains(.,'Kärcher högtryckstvätt, K4 Power Control Home Wood, 130 bar')]", "xpath:innerText"]
+        ["xpath=//h1[contains(.,'Oral-B Cross Action, borsthuvud refill')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "736570df-6501-48f5-ab24-e1518f63f35e",
-      "comment": "",
-      "command": "click",
-      "target": "css=.product__article-number > span",
-      "targets": [
-        ["css=.product__article-number > span", "css:finder"],
-        ["xpath=//div[2]/div/div[2]/div/span", "xpath:position"],
-        ["xpath=//span[contains(.,'31-8814')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "329c7483-c0f8-405b-8f09-abcfba0b28b4",
-      "comment": "",
-      "command": "assertText",
-      "target": "css=.product__discount-price",
-      "targets": [
-        ["css=.product__discount-price", "css:finder"],
-        ["xpath=//div[2]/div/div/span[2]", "xpath:position"],
-        ["xpath=//span[contains(.,'2 999,00')]", "xpath:innerText"]
-      ],
-      "value": "2 999,00"
-    }, {
-      "id": "2d1ceba2-bb15-4ec9-a007-5b74dc852c93",
+      "id": "1d325f44-d63b-4294-93ce-ad5338f31031",
       "comment": "",
       "command": "assertText",
       "target": "css=.product__title > .title-two",
       "targets": [
         ["css=.product__title > .title-two", "css:finder"],
         ["xpath=//h1", "xpath:position"],
-        ["xpath=//h1[contains(.,'Kärcher högtryckstvätt, K4 Power Control Home Wood, 130 bar')]", "xpath:innerText"]
+        ["xpath=//h1[contains(.,'Oral-B Cross Action, borsthuvud refill')]", "xpath:innerText"]
       ],
-      "value": "Kärcher högtryckstvätt, K4 Power Control Home Wood, 130 bar"
+      "value": "Oral-B Cross Action, borsthuvud refill"
+    }, {
+      "id": "f4494974-0b88-4e89-bee7-1faac256cc94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__discount-price",
+      "targets": [
+        ["css=.product__discount-price", "css:finder"],
+        ["xpath=//div[2]/div/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1577ca96-fecd-4992-9472-22f3a9fd97b1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product__discount-price",
+      "targets": [
+        ["css=.product__discount-price", "css:finder"],
+        ["xpath=//div[2]/div/div/span[2]", "xpath:position"]
+      ],
+      "value": "199,00 (33,17/st)"
+    }, {
+      "id": "dd2e41e4-3296-426b-b240-0ea7ccfd0b3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav__left > .yCmsComponent .icon",
+      "targets": [
+        ["css=.nav__left > .yCmsComponent .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "aecf326d-7f6a-417f-825f-02daeec6f6a6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.nav__left > .yCmsComponent .icon",
+      "targets": [
+        ["css=.nav__left > .yCmsComponent .icon", "css:finder"]
+      ],
+      "value": ""
     }]
   }],
   "suites": [{

@@ -164,13 +164,13 @@
       "id": "fcb02567-52ad-4ae3-a314-63bc52fdff51",
       "comment": "",
       "command": "assertText",
-      "target": "css=h1",
+      "target": "css=.co-header__textarea > h1",
       "targets": [
-        ["css=h1", "css:finder"],
+        ["css=.co-header__textarea > h1", "css:finder"],
         ["xpath=//h1", "xpath:position"],
-        ["xpath=//h1[contains(.,'Städa & diska')]", "xpath:innerText"]
+        ["xpath=//h1[contains(.,'Trädgårdsmaskiner')]", "xpath:innerText"]
       ],
-      "value": "Bästsäljare"
+      "value": "Trädgårdsmaskiner"
     }]
   }],
   "suites": [{
