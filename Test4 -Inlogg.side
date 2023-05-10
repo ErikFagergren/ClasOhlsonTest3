@@ -71,7 +71,7 @@
         ["xpath=//form[@id='loginForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
         ["xpath=//div[2]/div/input", "xpath:position"]
       ],
-      "value": "ClubClas12"
+      "value": "Gisjab12!!"
     }, {
       "id": "39072cc5-4501-46e6-8aa0-629af6a4efd9",
       "comment": "",
