@@ -31,7 +31,7 @@
       "id": "9eed41ae-1adc-4a76-80cc-b3f04ed8f614",
       "comment": "",
       "command": "click",
-      "target": "linkText=Bästsäljare",
+      "target": "css=.right-nav-list:nth-child(3) > li:nth-child(2) > a",
       "targets": [
         ["linkText=Bästsäljare", "linkText"],
         ["css=.right-nav-list:nth-child(3) > li:nth-child(2) > a", "css:finder"],
