@@ -21,17 +21,37 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "618762ff-bdb4-4e26-bd75-8f7217c91966",
+      "id": "0f7936a4-0386-4d73-9739-037fe621d88b",
       "comment": "",
       "command": "click",
       "target": "linkText=Erbjudanden",
-      "targets": [],
+      "targets": [
+        ["linkText=Erbjudanden", "linkText"],
+        ["css=.right-nav-li:nth-child(1) > .nav-right-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Erbjudanden')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"/*dataLayer.push({'event': 'interaction','eventCategory': 'Header Navigation','eventAction': 'Tab selection','eventLabel': 'Erbjudanden'});*/\"]", "xpath:attributes"],
+        ["xpath=//nav[@id='navigation']/div/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/c/product/onSale')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Erbjudanden')]", "xpath:innerText"]
+      ],
       "value": ""
     }, {
-      "id": "9eed41ae-1adc-4a76-80cc-b3f04ed8f614",
+      "id": "2637c890-da5f-482a-b1fd-8398c4c87a4b",
       "comment": "",
       "command": "click",
-      "target": "xpath=//ul[2]/li[2]/a",
+      "target": "css=.right-nav-list:nth-child(3) > li:nth-child(2)",
+      "targets": [
+        ["css=.right-nav-list:nth-child(3) > li:nth-child(2)", "css:finder"],
+        ["xpath=//nav[@id='navigation']/div/ul[2]/li/div/div/ul[2]/li[2]", "xpath:idRelative"],
+        ["xpath=//ul[2]/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfa13b35-58e6-44a0-83c9-0e209ae73697",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bästsäljare",
       "targets": [
         ["linkText=Bästsäljare", "linkText"],
         ["css=.right-nav-list:nth-child(3) > li:nth-child(2) > a", "css:finder"],
@@ -41,7 +61,7 @@
         ["xpath=//ul[2]/li[2]/a", "xpath:position"],
         ["xpath=//a[contains(.,'Bästsäljare')]", "xpath:innerText"]
       ],
-      "value": "Bästsäljare"
+      "value": ""
     }, {
       "id": "c3d4b26e-62d4-4a26-a5d4-5ebb408238f9",
       "comment": "",
