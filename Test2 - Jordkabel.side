@@ -1,0 +1,119 @@
+{
+  "id": "e9bb1379-39db-4dfb-8f98-1338bf5274b7",
+  "version": "2.0",
+  "name": "Test2",
+  "url": "https://www.clasohlson.com/se/",
+  "tests": [{
+    "id": "0f0e38ce-10ff-432d-9445-e76e98c79125",
+    "name": "Test2",
+    "commands": [{
+      "id": "c2e6edc9-348d-4681-8515-d38cb20c94f8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.clasohlson.com/se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dffbf593-091f-4415-ae7f-d5b7f747613e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cookie-notification-accept",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb557803-7518-4c58-bf77-cb0b5d4e2f5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.auto:nth-child(2)",
+      "targets": [
+        ["css=.auto:nth-child(2)", "css:finder"],
+        ["xpath=//nav[@id='navigation']/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//nav[3]/div/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa652bc9-cc45-46e0-89c6-201d908ef9e0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kablar",
+      "targets": [
+        ["linkText=Kablar", "linkText"],
+        ["css=.auto:nth-child(2) .sub-cat-parent:nth-child(8) > .js-nav-sub-category-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Kablar')]", "xpath:link"],
+        ["xpath=//nav[@id='navigation']/div/ul/li[2]/div/div/div/ul/li[8]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/El/Kablar/c/1265')]", "xpath:href"],
+        ["xpath=//li[2]/div/div/div/ul/li[8]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kablar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8db630a0-4ca9-40e5-8860-5ab8492c2fbb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Jordkablar",
+      "targets": [
+        ["linkText=Jordkablar", "linkText"],
+        ["css=#\\31 265 li:nth-child(6) > a", "css:finder"],
+        ["xpath=//div[@id='1265']/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/El/Kablar/Jordkablar/c/1268')]", "xpath:href"],
+        ["xpath=//li[2]/div/div/div/ul/li[8]/div[2]/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Jordkablar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e6eb5e8-3402-472b-8b03-8192c2dcc490",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.product-category-name > a",
+      "targets": [
+        ["css=.product-category-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Jordkablar')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/se/El/Kablar/Jordkablar/c/1268')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": "Jordkabel EKKJ/MCMK 4x2,5+2,5"
+    }, {
+      "id": "d428a2f7-9773-449c-a0b4-553e86ed3b0c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Jordkabel EKKJ/MCMK 4x2,5+2,5",
+      "targets": [
+        ["linkText=Jordkabel EKKJ/MCMK 4x2,5+2,5", "linkText"],
+        ["css=.name:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Jordkabel EKKJ/MCMK 4x2,5+2,5')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/se/Jordkabel-EKKJ-MCMK-4x2,5+2,5/p/49-424-10')])[3]", "xpath:href"],
+        ["xpath=//li/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Jordkabel EKKJ/MCMK 4x2,5+2,5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72154673-788d-45f8-9fcd-2447a623e06f",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Jordkabel EKKJ/MCMK 4x2,5+2,5')]", "xpath:innerText"]
+      ],
+      "value": "Jordkabel EKKJ/MCMK 4x2,5+2,5"
+    }, {
+      "id": "55c4fc22-fe31-4951-b5a1-6b42763cbfc4",
+      "comment": "",
+      "command": "verify",
+      "target": "Jordkabel EKKJ/MCMK 4x2,5+2,5",
+      "targets": [],
+      "value": "${Jordkabel EKKJ/MCMK 4x2,5+2,5}"
+    }]
+  }],
+  "suites": [{
+    "id": "faeafa14-5d9c-4ca7-b600-9b0ac5cbac27",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0f0e38ce-10ff-432d-9445-e76e98c79125"]
+  }],
+  "urls": ["https://www.clasohlson.com/se/"],
+  "plugins": []
+}
