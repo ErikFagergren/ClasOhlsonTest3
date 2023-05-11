@@ -1,0 +1,189 @@
+{
+  "id": "99517cf0-429a-4630-a886-835f8f9c931f",
+  "version": "2.0",
+  "name": "Test6",
+  "url": "https://www.clasohlson.com/se/",
+  "tests": [{
+    "id": "5ae902ef-14ab-40d6-a372-69fa80269388",
+    "name": "Test6",
+    "commands": [{
+      "id": "6a092279-5b9d-472e-8388-dffd8cc6a27c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.clasohlson.com/se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f48328f6-e7aa-4a58-a16d-7f8187f07056",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cookie-notification-accept",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a51bed74-9085-4c83-a776-252344f5331a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.auto:nth-child(5)",
+      "targets": [
+        ["css=.auto:nth-child(5)", "css:finder"],
+        ["xpath=//nav[@id='navigation']/div/ul/li[5]", "xpath:idRelative"],
+        ["xpath=//nav[3]/div/ul/li[5]", "xpath:position"],
+        ["xpath=//li[contains(.,'Multimedia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5eb0e7dd-fe9b-4c42-a40f-8a8c9708aa15",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lagringsmedia",
+      "targets": [
+        ["linkText=Lagringsmedia", "linkText"],
+        ["css=.auto:nth-child(5) .sub-cat-parent:nth-child(7) > .js-nav-sub-category-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Lagringsmedia')]", "xpath:link"],
+        ["xpath=//nav[@id='navigation']/div/ul/li[5]/div/div/div/ul/li[7]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/Multimedia/Lagringsmedia/c/1381')]", "xpath:href"],
+        ["xpath=//li[5]/div/div/div/ul/li[7]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lagringsmedia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c78f985-a081-4c43-860a-191c563ecd7b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hårddiskar",
+      "targets": [
+        ["linkText=Hårddiskar", "linkText"],
+        ["css=#\\31 381 li:nth-child(4) > a", "css:finder"],
+        ["xpath=//div[@id='1381']/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/Multimedia/Lagringsmedia/Hårddiskar/c/1811')]", "xpath:href"],
+        ["xpath=//li[5]/div/div/div/ul/li[7]/div[2]/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hårddiskar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "180cbed3-e297-4450-a56b-33c7bf788dc6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6:nth-child(1) img",
+      "targets": [
+        ["css=.col-md-6:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Seagate Expansion Portable extern hårddisk']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "169b5e75-e9eb-4070-815d-b6ed86426566",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-addtocart-pdp",
+      "targets": [
+        ["css=.btn-addtocart-pdp", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lägg i varukorg (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3def8dc7-77f7-4861-b759-55b72c2da386",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.showcart > span",
+      "targets": [
+        ["css=.showcart > span", "css:finder"],
+        ["xpath=//div[@id='apptusrelated-component']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Visa varukorgen (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85004e7f-3054-4f7c-940b-919c310aa6c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.showcart > span",
+      "targets": [
+        ["css=.showcart > span", "css:finder"],
+        ["xpath=//div[@id='apptusrelated-component']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Visa varukorgen (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1057d7eb-0a7c-43eb-8e6a-62f134f112a4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.showcart > span",
+      "targets": [
+        ["css=.showcart > span", "css:finder"],
+        ["xpath=//div[@id='apptusrelated-component']/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Visa varukorgen (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "530ecf0f-35b8-42fd-a7e1-941a82ebf4f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.apptusrelated__link--cta > .btn-primary > span",
+      "targets": [
+        ["css=.apptusrelated__link--cta > .btn-primary > span", "css:finder"],
+        ["xpath=//div[@id='apptusrelated-component']/div[3]/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gå till kassan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f186b6c-8503-4b69-94d3-f38923625f07",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Seagate Expansion Portable extern hårddisk",
+      "targets": [
+        ["linkText=Seagate Expansion Portable extern hårddisk", "linkText"],
+        ["css=.product-tile__title:nth-child(1) > .product-tile__title--product-name", "css:finder"],
+        ["xpath=(//a[contains(text(),'Seagate Expansion Portable extern hårddisk')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/se/Seagate-Expansion-Portable-extern-h&aring;rddisk/p/39-1513-1')])[5]", "xpath:href"],
+        ["xpath=//td[2]/div/a", "xpath:position"]
+      ],
+      "value": "Seagate Expansion Portable extern hårddisk"
+    }, {
+      "id": "2821e120-740d-4073-bcb2-3d8f956fcaf9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.order:nth-child(1) > .icon",
+      "targets": [
+        ["css=.order:nth-child(1) > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "46defd1d-1cd8-417a-8d6d-f5fb2afca45a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.empty-cart > .title-two",
+      "targets": [
+        ["css=.empty-cart > .title-two", "css:finder"],
+        ["xpath=//section[2]/section/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4893ad60-b53e-4e17-8e37-e053aed377d9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.empty-cart > .title-two",
+      "targets": [
+        ["css=.empty-cart > .title-two", "css:finder"],
+        ["xpath=//section[2]/section/div/div", "xpath:position"]
+      ],
+      "value": "Din varukorg är tom"
+    }]
+  }],
+  "suites": [{
+    "id": "89764988-2dd3-40ce-b65d-b06bbecfa1a7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5ae902ef-14ab-40d6-a372-69fa80269388"]
+  }],
+  "urls": ["https://www.clasohlson.com/se/"],
+  "plugins": []
+}
