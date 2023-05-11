@@ -107,6 +107,17 @@
       ],
       "value": ""
     }, {
+      "id": "92c489f0-e7b7-4772-bdf1-6e4d26eabbac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Dagbok Grateful Journal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
       "id": "42700355-685d-4f00-a298-76eb669f58ed",
       "comment": "",
       "command": "assertText",
@@ -114,9 +125,9 @@
       "targets": [
         ["css=.product__title > .title-two", "css:finder"],
         ["xpath=//h1", "xpath:position"],
-        ["xpath=//h1[contains(.,'Ukekalender 2022 / 2023 A6')]", "xpath:innerText"]
+        ["xpath=//h1[contains(.,'Dagbok Grateful Journal')]", "xpath:innerText"]
       ],
-      "value": "Ukekalender 2022 / 2023 A6"
+      "value": "Dagbok Grateful Journal"
     }, {
       "id": "1a97f0de-c036-43c5-b286-cd7bf3268fc1",
       "comment": "",

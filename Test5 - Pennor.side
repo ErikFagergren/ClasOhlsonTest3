@@ -36,10 +36,37 @@
       ],
       "value": ""
     }, {
-      "id": "0e561c0e-75e7-4121-98ac-900ee813e46e",
+      "id": "16292bc6-f37c-418d-a08a-d807142a7a15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.auto:nth-child(1)",
+      "targets": [
+        ["css=.auto:nth-child(1)", "css:finder"],
+        ["xpath=//nav[@id='navigation']/div/ul/li", "xpath:idRelative"],
+        ["xpath=//nav[3]/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Hem')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95ebe5e3-a711-48ef-b96e-ba6fcf648fe8",
       "comment": "",
       "command": "click",
       "target": "linkText=Kontor",
+      "targets": [
+        ["linkText=Kontor", "linkText"],
+        ["css=.auto:nth-child(1) .sub-cat-parent:nth-child(8) > .js-nav-sub-category-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Kontor')]", "xpath:link"],
+        ["xpath=//nav[@id='navigation']/div/ul/li/div/div/div/ul/li[8]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/Hem/Kontor/c/1463')]", "xpath:href"],
+        ["xpath=//li[8]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kontor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e561c0e-75e7-4121-98ac-900ee813e46e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show-third-level > .js-nav-sub-category-title > a",
       "targets": [
         ["linkText=Kontor", "linkText"],
         ["css=.show-third-level > .js-nav-sub-category-title > a", "css:finder"],

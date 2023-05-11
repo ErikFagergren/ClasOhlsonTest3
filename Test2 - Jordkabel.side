@@ -61,17 +61,12 @@
       ],
       "value": ""
     }, {
-      "id": "3e6eb5e8-3402-472b-8b03-8192c2dcc490",
+      "id": "73c0283c-bb67-4f2e-929a-513d37a3cc81",
       "comment": "",
       "command": "storeText",
-      "target": "css=.product-category-name > a",
-      "targets": [
-        ["css=.product-category-name > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Jordkablar')]", "xpath:link"],
-        ["xpath=(//a[contains(@href, '/se/El/Kablar/Jordkablar/c/1268')])[3]", "xpath:href"],
-        ["xpath=//div[2]/div/div/a", "xpath:position"]
-      ],
-      "value": "Jordkabel EKKJ/MCMK 4x2,5+2,5"
+      "target": "linkText=Jordkabel EKKJ/MCMK 4x2,5+2,5",
+      "targets": [],
+      "value": "variabel-1"
     }, {
       "id": "d428a2f7-9773-449c-a0b4-553e86ed3b0c",
       "comment": "",
@@ -96,14 +91,103 @@
         ["xpath=//h1", "xpath:position"],
         ["xpath=//h1[contains(.,'Jordkabel EKKJ/MCMK 4x2,5+2,5')]", "xpath:innerText"]
       ],
-      "value": "Jordkabel EKKJ/MCMK 4x2,5+2,5"
+      "value": "variabel-2"
     }, {
       "id": "55c4fc22-fe31-4951-b5a1-6b42763cbfc4",
       "comment": "",
       "command": "verify",
-      "target": "Jordkabel EKKJ/MCMK 4x2,5+2,5",
+      "target": "variabel-1",
       "targets": [],
-      "value": "${Jordkabel EKKJ/MCMK 4x2,5+2,5}"
+      "value": "${variabel-2}"
+    }, {
+      "id": "4f116834-8bb9-4c78-933a-b7899af89a80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plus-black",
+      "targets": [
+        ["css=.plus-black", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8baa582-cd42-45c7-a7a1-86731dc8c70d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plus-black",
+      "targets": [
+        ["css=.plus-black", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c0af1cb-3861-4b64-908c-de5d1ac4d8a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plus-black",
+      "targets": [
+        ["css=.plus-black", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2bd51d0-d1a6-4374-af7b-cb3aa069225a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-pd-cart",
+      "targets": [
+        ["css=.btn-pd-cart", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lägg i varukorg (4)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee4e4443-0f78-499a-9d9a-0931ea8e010f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.apptusrelated__link--cta > .btn-primary > span",
+      "targets": [
+        ["css=.apptusrelated__link--cta > .btn-primary > span", "css:finder"],
+        ["xpath=//div[@id='apptusrelated-component']/div[3]/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gå till kassan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbfff32c-0142-451f-9427-6e419957402c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.checkout-shopping-cart--quantity:nth-child(1) > .plus-button",
+      "targets": [
+        ["css=.checkout-shopping-cart--quantity:nth-child(1) > .plus-button", "css:finder"],
+        ["xpath=//td[7]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d73692de-9e10-4ff1-a0c5-dc91026c0575",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-tile__quantity:nth-child(1) > .\\34 90424010",
+      "targets": [
+        ["css=.product-tile__quantity:nth-child(1) > .\\34 90424010", "css:finder"],
+        ["xpath=(//input[@value='4'])[4]", "xpath:attributes"],
+        ["xpath=//td[7]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "291fdd64-8ac4-487b-acc3-1d6d2564b77b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.order__two:nth-child(1)",
+      "targets": [
+        ["css=.order__two:nth-child(1)", "css:finder"],
+        ["xpath=//td[8]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e93eac9e-3f38-443d-ab08-8c3b76e8e190",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.order__two:nth-child(1)",
+      "targets": [],
+      "value": "2396,00"
     }]
   }],
   "suites": [{
