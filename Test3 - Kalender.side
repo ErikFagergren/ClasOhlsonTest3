@@ -1,7 +1,7 @@
 {
   "id": "e467e9b8-3cce-4494-b789-9ba0e2a492f3",
   "version": "2.0",
-  "name": "Test3 Kalender",
+  "name": "Test3 - Kalender",
   "url": "https://www.clasohlson.com/se/",
   "tests": [{
     "id": "69a7aa27-37e7-4bf6-b460-db22d726cae8",
@@ -14,44 +14,55 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "8531ab75-54a1-41d8-93bf-bf83f1e2814c",
+      "id": "54aa9b0a-1eb3-41df-a614-c42f59a17e47",
       "comment": "",
       "command": "click",
       "target": "css=.js-cookie-notification-accept",
-      "targets": [
-        ["css=.js-cookie-notification-accept", "css:finder"],
-        ["xpath=//button[@type='button']", "xpath:attributes"],
-        ["xpath=//div[@id='js-cookie-notification']/div[2]/div/button", "xpath:idRelative"],
-        ["xpath=//button", "xpath:position"],
-        ["xpath=//button[contains(.,'Acceptera alla cookies')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "cf17bee9-9b76-4278-9386-63f37cebff0f",
-      "comment": "",
-      "command": "open",
-      "target": "https://www.clasohlson.com/no/",
       "targets": [],
       "value": ""
     }, {
-      "id": "94a4e678-9600-4ce1-99ef-8f1c1a54d339",
+      "id": "87a0ffa4-47d5-41eb-b976-87cce6f59c25",
       "comment": "",
       "command": "mouseOver",
-      "target": "xpath=//nav[3]/div/ul/li",
+      "target": "css=.site-country-dorpdown",
       "targets": [
-        ["css=.show-sub", "css:finder"],
-        ["xpath=//nav[@id='navigation']/div/ul/li", "xpath:idRelative"],
-        ["xpath=//nav[3]/div/ul/li", "xpath:position"]
+        ["css=.site-country-dorpdown", "css:finder"],
+        ["xpath=//header/div/div/div", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "b7553039-a5eb-4a06-83ae-8d54e4275d02",
+      "id": "bf37dff9-b363-49f8-8533-8fb429f48485",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, 'https://www.clasohlson.com/no/')]",
+      "targets": [
+        ["linkText=Norway", "linkText"],
+        ["css=li:nth-child(1) > .subMenuArrow", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.clasohlson.com/no/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Norway')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "560c4079-f31e-466f-95f9-077f8eb07dd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.auto:nth-child(1)",
+      "targets": [
+        ["css=.auto:nth-child(1)", "css:finder"],
+        ["xpath=//nav[@id='navigation']/div/ul/li", "xpath:idRelative"],
+        ["xpath=//nav[3]/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Hjem')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d68738e-08a4-47f6-903d-4908d69c4948",
       "comment": "",
       "command": "click",
       "target": "linkText=Kontor",
       "targets": [
         ["linkText=Kontor", "linkText"],
-        ["css=.show-third-level > .js-nav-sub-category-title > a", "css:finder"],
+        ["css=.auto:nth-child(1) .sub-cat-parent:nth-child(7) > .js-nav-sub-category-title > a", "css:finder"],
         ["xpath=//a[contains(text(),'Kontor')]", "xpath:link"],
         ["xpath=//nav[@id='navigation']/div/ul/li/div/div/div/ul/li[7]/div/a", "xpath:idRelative"],
         ["xpath=//a[contains(@href, '/no/Hjem/Kontor/c/1463')]", "xpath:href"],
@@ -60,62 +71,43 @@
       ],
       "value": ""
     }, {
-      "id": "cd8ece2b-d098-4a43-a8d5-6c0a7af7a735",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.co-grid > .co-lista-mission:nth-child(1) img",
-      "targets": [
-        ["css=.co-grid > .co-lista-mission:nth-child(1) img", "css:finder"],
-        ["xpath=//img[@alt='Blokk og papir']", "xpath:img"],
-        ["xpath=//a/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "7f71660a-dc9d-4ab4-ad0a-1cc6556ba1d0",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.co-grid > .co-lista-mission:nth-child(1) img",
-      "targets": [
-        ["css=.co-grid > .co-lista-mission:nth-child(1) img", "css:finder"],
-        ["xpath=//img[@alt='Blokk og papir']", "xpath:img"],
-        ["xpath=//a/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "2aa9ebf8-32eb-4911-858b-a8746063a87b",
+      "id": "5ce0f757-5395-4b42-84d4-92282e31c604",
       "comment": "",
       "command": "click",
-      "target": "css=.co-lista-mission:nth-child(8) img",
+      "target": "linkText=Kalendere",
       "targets": [
-        ["css=.co-lista-mission:nth-child(8) img", "css:finder"],
-        ["xpath=//img[@alt='Kalender']", "xpath:img"],
-        ["xpath=//li[8]/a/img", "xpath:position"]
+        ["linkText=Kalendere", "linkText"],
+        ["css=#\\31 463 li:nth-child(9) > a", "css:finder"],
+        ["xpath=//div[@id='1463']/div/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/no/Hjem/Kontor/Kalendere/c/1879')]", "xpath:href"],
+        ["xpath=//li[7]/div[2]/div/ul/li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kalendere')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "0a4258aa-3c3e-4347-a99f-48bbd11bbc00",
+      "id": "4e5c7138-8f4d-4ccb-939d-5e02829cf3f1",
       "comment": "",
       "command": "click",
-      "target": "css=.col-md-6:nth-child(3) img",
+      "target": "css=.col-md-6:nth-child(2) img",
       "targets": [
-        ["css=.col-md-6:nth-child(3) img", "css:finder"],
-        ["xpath=//img[@alt='Naga ukeplanlegger A4']", "xpath:img"],
-        ["xpath=//li[3]/div/div/div/a/img", "xpath:position"]
+        ["css=.col-md-6:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='Ukekalender 2022 / 2023 A6']", "xpath:img"],
+        ["xpath=//li[2]/div/div/div/a/img", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "f67ac809-33d8-4568-b098-06e6e50ba523",
+      "id": "4c2ffba8-daad-44a6-99b6-3a7a1a9163bb",
       "comment": "",
       "command": "click",
       "target": "css=.product__title > .title-two",
       "targets": [
         ["css=.product__title > .title-two", "css:finder"],
         ["xpath=//h1", "xpath:position"],
-        ["xpath=//h1[contains(.,'Naga ukeplanlegger A4')]", "xpath:innerText"]
+        ["xpath=//h1[contains(.,'Ukekalender 2022 / 2023 A6')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "a78e0e7e-493d-4eb4-b742-a2959cc93368",
+      "id": "42700355-685d-4f00-a298-76eb669f58ed",
       "comment": "",
       "command": "assertText",
       "target": "css=.product__title > .title-two",
@@ -125,6 +117,46 @@
         ["xpath=//h1[contains(.,'Ukekalender 2022 / 2023 A6')]", "xpath:innerText"]
       ],
       "value": "Ukekalender 2022 / 2023 A6"
+    }, {
+      "id": "1a97f0de-c036-43c5-b286-cd7bf3268fc1",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.active:nth-child(5)",
+      "targets": [
+        ["css=.active:nth-child(5)", "css:finder"],
+        ["xpath=//ol/li[5]", "xpath:position"],
+        ["xpath=//li[contains(.,'Ukekalender 2022 / 2023 A6')]", "xpath:innerText"]
+      ],
+      "value": "variabel-1"
+    }, {
+      "id": "cc9831f5-ecbf-430d-b340-f2833292103f",
+      "comment": "",
+      "command": "assertNotText",
+      "target": "css=.product__discount-price",
+      "targets": [
+        ["css=.product__discount-price", "css:finder"],
+        ["xpath=//div[2]/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'14,90')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09c789c6-dff5-40be-bc73-baf633eac459",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Ukekalender 2022 / 2023 A6')]", "xpath:innerText"]
+      ],
+      "value": "variable-2"
+    }, {
+      "id": "bb6537c0-7103-4225-8666-2189c4a825c2",
+      "comment": "",
+      "command": "verify",
+      "target": "variabel-1",
+      "targets": [],
+      "value": "${variable-2}"
     }]
   }],
   "suites": [{
