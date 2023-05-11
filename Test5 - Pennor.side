@@ -21,21 +21,6 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "c310dcc5-e741-4cb9-bff5-d707636885d5",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "xpath=//nav[3]/div/ul/li",
-      "targets": [
-        ["linkText=Kontor", "linkText"],
-        ["css=.show-third-level > .js-nav-sub-category-title > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Kontor')]", "xpath:link"],
-        ["xpath=//nav[@id='navigation']/div/ul/li/div/div/div/ul/li[8]/div/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/se/Hem/Kontor/c/1463')]", "xpath:href"],
-        ["xpath=//li[8]/div/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Kontor')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
       "id": "16292bc6-f37c-418d-a08a-d807142a7a15",
       "comment": "",
       "command": "click",
@@ -66,7 +51,7 @@
       "id": "0e561c0e-75e7-4121-98ac-900ee813e46e",
       "comment": "",
       "command": "click",
-      "target": "css=.show-third-level > .js-nav-sub-category-title > a",
+      "target": "linkText=Kontor",
       "targets": [
         ["linkText=Kontor", "linkText"],
         ["css=.show-third-level > .js-nav-sub-category-title > a", "css:finder"],
