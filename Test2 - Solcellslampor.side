@@ -28,14 +28,51 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "bd90c5cb-c0cc-480e-977d-b2bdace9a0dc",
+      "id": "9eed41ae-1adc-4a76-80cc-b3f04ed8f614",
       "comment": "",
       "command": "click",
-      "target": "css=.col-md-6:nth-child(8) img",
+      "target": "linkText=Bästsäljare",
       "targets": [
-        ["css=.col-md-6:nth-child(8) img", "css:finder"],
-        ["xpath=//img[@alt='Oral-B Cross Action, borsthuvud refill']", "xpath:img"],
-        ["xpath=//li[8]/div/div/div/a/img", "xpath:position"]
+        ["linkText=Bästsäljare", "linkText"],
+        ["css=.right-nav-list:nth-child(3) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bästsäljare')]", "xpath:link"],
+        ["xpath=//nav[@id='navigation']/div/ul[2]/li/div/div/ul[2]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/c/product/bestseller')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bästsäljare')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3d4b26e-62d4-4a26-a5d4-5ebb408238f9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.col-md-6:nth-child(1) .thumb",
+      "targets": [
+        ["css=.col-md-6:nth-child(1) .thumb", "css:finder"],
+        ["xpath=//a[contains(@href, '/se/Solcellslampa-3-pack/p/36-6488-1')]", "xpath:href"],
+        ["xpath=//li/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6d2fb2e-d46b-4a46-a91b-fc0442f91460",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6:nth-child(1) img",
+      "targets": [
+        ["css=.col-md-6:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Solcellslampa 3-pack']", "xpath:img"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8d30f87-77c3-4669-8e9a-4fc42f13aaeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Solcellslampa 3-pack')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -59,27 +96,27 @@
         ["xpath=//h1", "xpath:position"],
         ["xpath=//h1[contains(.,'Oral-B Cross Action, borsthuvud refill')]", "xpath:innerText"]
       ],
-      "value": "Oral-B Cross Action, borsthuvud refill"
+      "value": "Solcellslampa 3-pack"
     }, {
-      "id": "f4494974-0b88-4e89-bee7-1faac256cc94",
+      "id": "8e76ba33-46cf-476e-9af8-993057b9c4ca",
       "comment": "",
       "command": "click",
-      "target": "css=.product__discount-price",
+      "target": "css=.product__price-value",
       "targets": [
-        ["css=.product__discount-price", "css:finder"],
-        ["xpath=//div[2]/div/div/span[2]", "xpath:position"]
+        ["css=.product__price-value", "css:finder"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"]
       ],
       "value": ""
     }, {
       "id": "1577ca96-fecd-4992-9472-22f3a9fd97b1",
       "comment": "",
       "command": "assertText",
-      "target": "css=.product__discount-price",
+      "target": "css=.product__price-value",
       "targets": [
         ["css=.product__discount-price", "css:finder"],
         ["xpath=//div[2]/div/div/span[2]", "xpath:position"]
       ],
-      "value": "199,00 (33,17/st)"
+      "value": "49,90 (16,63/st)"
     }, {
       "id": "dd2e41e4-3296-426b-b240-0ea7ccfd0b3f",
       "comment": "",
