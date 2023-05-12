@@ -64,21 +64,28 @@
       "id": "73c0283c-bb67-4f2e-929a-513d37a3cc81",
       "comment": "",
       "command": "storeText",
-      "target": "linkText=Jordkabel EKKJ/MCMK 4x2,5+2,5",
-      "targets": [],
+      "target": "linkText=EKKJ Jordkabel",
+      "targets": [
+        ["linkText=EKKJ Jordkabel", "linkText"],
+        ["css=.name:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'EKKJ Jordkabel')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/se/EKKJ-Jordkabel/p/49-424-10')])[3]", "xpath:href"],
+        ["xpath=//li/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'EKKJ Jordkabel')]", "xpath:innerText"]
+      ],
       "value": "variabel-1"
     }, {
-      "id": "d428a2f7-9773-449c-a0b4-553e86ed3b0c",
+      "id": "fc6c1ae5-2c4c-4538-96cd-ab132673eda4",
       "comment": "",
       "command": "click",
-      "target": "linkText=Jordkabel EKKJ/MCMK 4x2,5+2,5",
+      "target": "linkText=EKKJ Jordkabel",
       "targets": [
-        ["linkText=Jordkabel EKKJ/MCMK 4x2,5+2,5", "linkText"],
+        ["linkText=EKKJ Jordkabel", "linkText"],
         ["css=.name:nth-child(2)", "css:finder"],
-        ["xpath=//a[contains(text(),'Jordkabel EKKJ/MCMK 4x2,5+2,5')]", "xpath:link"],
-        ["xpath=(//a[contains(@href, '/se/Jordkabel-EKKJ-MCMK-4x2,5+2,5/p/49-424-10')])[3]", "xpath:href"],
+        ["xpath=//a[contains(text(),'EKKJ Jordkabel')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/se/EKKJ-Jordkabel/p/49-424-10')])[3]", "xpath:href"],
         ["xpath=//li/div/div[2]/div/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Jordkabel EKKJ/MCMK 4x2,5+2,5')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'EKKJ Jordkabel')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
